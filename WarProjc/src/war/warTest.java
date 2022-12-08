@@ -16,19 +16,17 @@ public class warTest {
 		//PROGRAMMA INIZI QUI
 		Partita match = new Partita();
 		
-		match.toString();
-		System.out.println(match.toString());
-//		
-//		match.nomi();
-//		
-//		
-//		Giocatore p1 = new Giocatore(match.getNome1(), match.sceltaArmaP1());
-//		Giocatore p2 = new Giocatore(match.getNome2(), match.sceltaArmaBot());
-//		
 		
-//		
-//		
-//		match.testaOCroce(p1, p2);
+		match.nomi();
+		
+		
+		Giocatore p1 = new Giocatore(match.getNome1(), match.sceltaArmaP1());
+		Giocatore p2 = new Giocatore(match.getNome2(), match.sceltaArmaBot());
+		
+		
+		
+		
+		match.testaOCroce(p1, p2);
 		
 
 		
